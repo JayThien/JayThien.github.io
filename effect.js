@@ -47,7 +47,7 @@ $('document').ready(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
 	});
-	setTimeout(() => {$('#play').trigger('click');}, 6000);
+	// setTimeout(() => {$('#play').trigger('click');}, 6000);
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
