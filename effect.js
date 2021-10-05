@@ -32,9 +32,9 @@ $('document').ready(function(){
 	});
 	setTimeout(() => {$('#turn_on').trigger('click');}, 1000);
 	$('#play').click(function(){
-		var audio = $('.song')[0];
-		audio.muted = false;
-        audio.play();
+		// var audio = $('.song')[0];
+		// audio.muted = false;
+        // audio.play();
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
 		$('#bulb_red').addClass('bulb-glow-red-after');
 		$('#bulb_blue').addClass('bulb-glow-blue-after');
